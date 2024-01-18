@@ -1,5 +1,5 @@
 ---
-title: 'test-webr'
+title: 'test'
 format: revealjs
 webr:
   packages: ['ggplot2', 'dplyr'] # Install R packages on document open
@@ -9,15 +9,7 @@ filters:
   - webr
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-```{r}
-1 + 1
-```
-
-## sdfs
+## test with live code
 
 ```{webr-r}
 1 + 1
