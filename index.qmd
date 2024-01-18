@@ -1,6 +1,6 @@
 ---
 title: 'test'
-format: revealjs
+format: html
 webr:
   packages: ['ggplot2', 'dplyr'] # Install R packages on document open
 # autoload-packages: false       # Disable automatic loading of packages
