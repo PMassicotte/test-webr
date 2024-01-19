@@ -14,8 +14,12 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
 
+        # We're pinning the version to 1.4's RC candidate
+        # Remove once released.
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.4.545
 
       - name: Install R
         uses: r-lib/actions/setup-r@v2
