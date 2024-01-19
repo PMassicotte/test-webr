@@ -1,6 +1,6 @@
 ---
 title: 'test'
-format: html
+format: revealjs
 webr:
   packages: ['ggplot2', 'dplyr'] # Install R packages on document open
 # autoload-packages: false       # Disable automatic loading of packages
@@ -17,4 +17,12 @@ filters:
 
 ```{webr-r}
 2 + 22 + 2
+```
+
+## This is another page
+
+```{webr-r}
+mtcars |>
+  ggplot(aes(x = mpg)) +
+  geom_histogram()
 ```
